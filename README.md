@@ -16,6 +16,6 @@ Save the selected point clouds and export the metadata of the selected trees to 
 
 `CreateSimplifiedTreeModelForest.R` creates a forest point cloud composed of simplified tree point clouds. For creating the simplified tree model forest, it is not necessary to download the real treepoint clouds.
 
-The created 3D representations can be used as input for laser scanning simulations using HELIOS++ (https://github.com/3dgeo-heidelberg/helios).
+The created 3D representations can be used as input for laser scanning simulations using HELIOS++ (https://github.com/3dgeo-heidelberg/helios). Example scripts can be downloaded here: https://doi.org/10.5445/IR/1000147797. 
 
 
