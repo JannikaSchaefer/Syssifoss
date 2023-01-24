@@ -4,7 +4,7 @@ Here, we provide scripts for creating synthetic 3D representations of forests us
 
 Input data should be forest inventory data on a single tree level including tree positions, species, height, crown diameter, crown base height and diameter at breast height (DBH). One example input file is provided (`ForestInventoryData.csv`).
 
-Single tree point clouds can be real tree point clouds, i.e., point clouds of single trees extracted from real laser scanning data, or simplified tree models, i.e., point clouds in form of cylindrical stems and ellipsoidal crowns.
+Single tree point clouds can be real tree point clouds, i.e., point clouds of single trees extracted from real laser scanning data, or simplified tree models, i.e., point clouds in form of cylindrical stems and spheroidal crowns.
 
 Real single tree point clouds can be downloaded from pytreedb (https://pytreedb.geog.uni-heidelberg.de/). You can preselect the source of the tree point clouds (ALS, ULS, TLS), the canopy condition (leaf-on, leaf-off) and the quality of the tree point cloud segmentation (q1-q6). 
 
@@ -14,7 +14,7 @@ Save the selected point clouds and export the metadata of the selected trees to 
 
 `CreateRealTreeModelForest.R` creates the forest point cloud based on the single tree point clouds selected in `SelectTreeModels.R`. 
 
-`CreateSimplifiedTreeModelForest.R` creates a forest point cloud composed of simplified tree point clouds. For creating the simplified tree model forest, it is not necessary to download the real treepoint clouds.
+`CreateSimplifiedTreeModelForest.R` creates a forest point cloud composed of simplified tree point clouds. For creating the simplified tree model forest, it is not necessary to download the real tree point clouds.
 
 The created 3D representations can be used as input for laser scanning simulations using HELIOS++ (https://github.com/3dgeo-heidelberg/helios). Example scripts can be downloaded here: https://doi.org/10.5445/IR/1000147797. 
 
